@@ -142,8 +142,15 @@ const ChurchCleaning = () => {
                 <h3 className="text-2xl font-bold mb-6">Common Questions</h3>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem value="item-1" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Do you offer discounts for churches?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do you offer discounts for churches?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, we offer special non-profit pricing for churches and religious organizations. We understand ministry budgets are tight and we want to help you maintain a clean facility without breaking the bank. Contact us for church-specific pricing that fits your budget.
@@ -151,8 +158,15 @@ const ChurchCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-2" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Can you clean around our event schedule?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Can you clean around our event schedule?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Absolutely. We know churches have services, Bible studies, community events, weddings, and funerals. We'll work with your calendar to clean when it's convenient for your ministry. Many churches prefer Saturday mornings or Monday mornings when the building is empty.
@@ -160,8 +174,15 @@ const ChurchCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-3" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Are you respectful of religious items?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Are you respectful of religious items?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, we train all our staff to work respectfully in houses of worship. We won't move or touch religious items, sacred objects, or anything on the altar without explicit permission. If something needs to be moved for cleaning, we'll ask your staff first.
@@ -169,8 +190,15 @@ const ChurchCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-4" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      What about extra cleaning for holidays?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What about extra cleaning for holidays?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       We can add extra deep cleaning before major holidays like Easter, Christmas, Passover, or Ramadan when you're expecting higher attendance. Just let us know a week or two in advance and we'll make sure your facility looks its absolute best for your congregation.

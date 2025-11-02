@@ -142,8 +142,15 @@ const SchoolCleaning = () => {
                 <h3 className="text-2xl font-bold mb-6">Common Questions</h3>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem value="item-1" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Do all your staff have background checks?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do all your staff have background checks?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, absolutely. Every single person on our team undergoes a thorough background check before they can work in any school. We understand the importance of child safety and only hire people with clean records. All staff also carries proper identification and wears company uniforms.
@@ -151,8 +158,15 @@ const SchoolCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-2" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      What cleaning products do you use?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What cleaning products do you use?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       We use EPA-approved disinfectants that are effective against viruses and bacteria but safe for use around children. If you prefer green/eco-friendly products, we can use those instead at no extra charge. All our products meet or exceed CDC guidelines for school cleaning.
@@ -160,8 +174,15 @@ const SchoolCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-3" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Can you work around our school schedule?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Can you work around our school schedule?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, we typically clean after school hours when students and teachers have left for the day. We can also work around evening events, sports practices, or parent meetings. Just let us know your schedule and we'll coordinate around it. Flexibility is part of our service.
@@ -169,8 +190,15 @@ const SchoolCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-4" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      What if there's a flu outbreak or COVID situation?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What if there's a flu outbreak or COVID situation?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       We can immediately increase disinfection frequency and focus on high-touch surfaces throughout the day. We're experienced with outbreak response cleaning and can deploy additional staff and resources within 24 hours. Just call us and we'll adjust our cleaning protocol to match the situation.

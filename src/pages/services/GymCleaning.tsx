@@ -63,15 +63,42 @@ const GymCleaning = () => {
                 <h3 className="text-2xl font-bold mb-6">Common Questions</h3>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem value="item-1" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">Do you clean equipment between peak hours?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do you clean equipment between peak hours?
+                        </span>
+                      </div>
+                    </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">Yes, we can do mid-day cleaning during slower hours to wipe down all equipment, clean locker rooms, and restock supplies. This keeps your gym fresh during peak evening hours.</AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">What about shower and sauna areas?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What about shower and sauna areas?
+                        </span>
+                      </div>
+                    </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">We deep clean and disinfect all shower stalls, sauna benches, and steam rooms. We use products specifically designed for high-humidity areas that prevent mold and mildew buildup.</AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-3" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">Can you handle odor control?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Can you handle odor control?
+                        </span>
+                      </div>
+                    </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">Absolutely. Gym odors come from bacteria, not just sweat. Our disinfection process kills odor-causing bacteria at the source. We also use professional-grade deodorizers in locker rooms and trash areas.</AccordionContent>
                   </AccordionItem>
                 </Accordion>
