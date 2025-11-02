@@ -5,6 +5,7 @@ import QuickCalculator from "@/components/QuickCalculator";
 import TestimonialCard from "@/components/TestimonialCard";
 import { Phone } from "lucide-react";
 import officeCleaningImage from "@/assets/office-cleaning.jpeg";
+import medicalCleaningImage from "@/assets/medical-cleaning.webp";
 
 const Home = () => {
   const testimonials = [
@@ -212,7 +213,11 @@ const Home = () => {
                 </ul>
               </div>
               <div>
-                <div className="aspect-[4/3] bg-card rounded-lg border border-border"></div>
+                <img 
+                  src={medicalCleaningImage} 
+                  alt="Professional janitors in blue uniforms cleaning medical facility bed with hospital-grade disinfectants" 
+                  className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
+                />
               </div>
             </div>
           </div>
