@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -38,15 +37,8 @@ const Home = () => {
   ];
 
   return (
-    <>
-      <Helmet>
-        <title>Professional Janitorial Services Dallas TX | Miranda Janitorial</title>
-        <meta name="description" content="Professional commercial cleaning services in Dallas, TX. Reliable janitorial services for offices, medical facilities, retail, and more. Call (945) 398-9726 for a free quote." />
-        <link rel="canonical" href="https://www.mirandajanitorial.com/" />
-      </Helmet>
-      
-      <div className="min-h-screen">
-        {/* Hero Section */}
+    <div className="min-h-screen">
+      {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-background via-section-alt to-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
@@ -646,7 +638,6 @@ const Home = () => {
         </div>
       </section>
     </div>
-    </>
   );
 };
 
