@@ -164,8 +164,15 @@ const MedicalCleaning = () => {
                 <h3 className="text-2xl font-bold mb-6">Common Questions</h3>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem value="item-1" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Do you use hospital-grade disinfectants?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do you use hospital-grade disinfectants?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, we use EPA-approved medical-grade disinfectants that meet healthcare facility requirements. Our products are effective against MRSA, C-diff, norovirus, and other common healthcare pathogens. We also follow proper dwell times - that means the disinfectant stays wet on the surface long enough to actually kill the germs, not just spread them around.
@@ -173,8 +180,15 @@ const MedicalCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-2" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Are you HIPAA compliant?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Are you HIPAA compliant?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Absolutely. All our staff signs HIPAA agreements and receives training on patient privacy. We know not to look at or discuss any patient information we might see. If we find any documents left out, we let your staff know immediately - we don't move or read them. Your patient data stays private.
@@ -182,8 +196,15 @@ const MedicalCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-3" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      How often should medical offices be cleaned?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          How often should medical offices be cleaned?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Most medical facilities benefit from daily cleaning, especially in high-traffic areas like waiting rooms and restrooms. Exam rooms should be cleaned daily at minimum, and some high-volume clinics need them cleaned between each patient. We can create a schedule that matches your patient volume and budget.
@@ -191,8 +212,15 @@ const MedicalCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-4" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      What's the difference between medical and office cleaning?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What's the difference between medical and office cleaning?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Medical cleaning requires EPA-registered disinfectants, longer contact times, and specific procedures that regular office cleaning doesn't require. We also handle bio-hazard waste differently, pay more attention to cross-contamination, and our staff is trained in bloodborne pathogen safety. It's a completely different level of cleaning with higher standards.

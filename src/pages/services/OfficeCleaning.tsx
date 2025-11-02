@@ -142,8 +142,15 @@ const OfficeCleaning = () => {
                 <h3 className="text-2xl font-bold mb-6">Common Questions</h3>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem value="item-1" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Do you clean after business hours?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do you clean after business hours?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, most of our office clients prefer after-hours cleaning so we're not in the way during work hours. We typically clean between 6 PM and 6 AM. You give us keys or alarm codes, and we lock up when we're done. All our staff is background-checked and bonded.
@@ -151,8 +158,15 @@ const OfficeCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-2" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      What if we need extra cleaning for special events?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          What if we need extra cleaning for special events?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Just let us know. We can add extra cleaning days for client meetings, company events, or any time you need your office to look extra sharp. We usually just need 24-48 hours notice, and there's no minimum commitment for add-on services.
@@ -160,8 +174,15 @@ const OfficeCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-3" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      Do you provide cleaning supplies?
+                    <AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          Do you provide cleaning supplies?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Yes, all supplies and equipment are included in our pricing. We bring vacuums, mops, cleaning solutions, trash liners - everything. You don't need to buy or stock anything. If you prefer specific products (like eco-friendly cleaners), just let us know and we'll use those instead.
@@ -169,8 +190,15 @@ const OfficeCleaning = () => {
                   </AccordionItem>
 
                   <AccordionItem value="item-4" className="border border-border rounded-lg px-6 py-2">
-                    <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                      How do you handle confidential documents?
+<AccordionTrigger className="text-lg font-semibold py-4 hover:no-underline">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded bg-accent/20 flex items-center justify-center text-accent text-xl flex-shrink-0">
+                          +
+                        </div>
+                        <span className="text-left">
+                          How do you handle confidential documents?
+                        </span>
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground pb-4 pt-2">
                       Our staff is trained to never look at, move, or touch any documents on desks or in offices. If something is in our way, we clean around it. All our team members sign confidentiality agreements and are background-checked. Your business information stays private.
