@@ -8,6 +8,7 @@ import officeCleaningImage from "@/assets/office-cleaning.jpeg";
 import medicalCleaningImage from "@/assets/medical-cleaning.webp";
 import retailCleaningImage from "@/assets/retail-cleaning.webp";
 import restaurantCleaningImage from "@/assets/restaurant-cleaning.webp";
+import schoolCleaningImage from "@/assets/school-cleaning.webp";
 
 const Home = () => {
   const testimonials = [
@@ -320,7 +321,11 @@ const Home = () => {
           <div className="container mx-auto px-4 py-12 md:py-16">
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="order-2 md:order-1">
-                <div className="aspect-[4/3] bg-card rounded-lg border border-border"></div>
+                <img 
+                  src={schoolCleaningImage} 
+                  alt="Janitor mopping clean hallway floor in school with bright natural light from window" 
+                  className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
+                />
               </div>
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-bold mb-4">School & Educational Facility Cleaning</h3>
