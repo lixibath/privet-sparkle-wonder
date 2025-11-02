@@ -59,27 +59,9 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-6">
-            <Link to="/" className="flex items-center gap-3">
-              <img 
-                src={mirandaLogo} 
-                alt="Miranda Gdal Janitorial LLC" 
-                className="h-12 md:h-14 w-auto"
-              />
-            </Link>
-            
-            <a 
-              href="tel:9453989726" 
-              className="hidden lg:flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Phone size={16} className="text-accent" />
-              <span>(945) 398-9726</span>
-            </a>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center justify-between h-20 relative">
+          {/* Left Navigation */}
+          <nav className="flex items-center gap-8">
             <Link
               to="/"
               className={`text-sm font-medium transition-colors hover:text-primary ${
@@ -156,7 +138,21 @@ const Header = () => {
                 </div>
               )}
             </div>
+          </nav>
 
+          {/* Center Logo */}
+          <div className="absolute left-1/2 -translate-x-1/2">
+            <Link to="/" className="flex items-center">
+              <img 
+                src={mirandaLogo} 
+                alt="Miranda Gdal Janitorial LLC" 
+                className="h-14 w-auto"
+              />
+            </Link>
+          </div>
+
+          {/* Right Navigation */}
+          <div className="flex items-center gap-8">
             <Link
               to="/service-area"
               className={`text-sm font-medium transition-colors hover:text-primary ${
@@ -192,15 +188,25 @@ const Header = () => {
             >
               Contact
             </Link>
-          </nav>
 
-          <Button asChild className="hidden md:inline-flex">
-            <Link to="/contact">Get Free Quote</Link>
-          </Button>
+            <Button asChild>
+              <Link to="/contact">Get Free Quote</Link>
+            </Button>
+          </div>
+        </div>
 
-          {/* Mobile Menu Button */}
+        {/* Mobile Header */}
+        <div className="md:hidden flex items-center justify-between h-20">
+          <Link to="/" className="flex items-center gap-3">
+            <img 
+              src={mirandaLogo} 
+              alt="Miranda Gdal Janitorial LLC" 
+              className="h-12 w-auto"
+            />
+          </Link>
+
           <button
-            className="md:hidden text-foreground"
+            className="text-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
