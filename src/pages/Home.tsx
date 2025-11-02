@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -37,8 +38,15 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
+    <>
+      <Helmet>
+        <title>Professional Janitorial Services Dallas TX | Miranda Janitorial</title>
+        <meta name="description" content="Professional commercial cleaning services in Dallas, TX. Reliable janitorial services for offices, medical facilities, retail, and more. Call (945) 398-9726 for a free quote." />
+        <link rel="canonical" href="https://www.mirandajanitorial.com/" />
+      </Helmet>
+      
+      <div className="min-h-screen">
+        {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-background via-section-alt to-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
@@ -144,7 +152,10 @@ const Home = () => {
               <div className="order-2 md:order-1">
                 <img 
                   src={officeCleaningImage} 
-                  alt="Modern office space with clean desks and bright windows overlooking city skyline" 
+                  alt="Modern office space with clean desks and bright windows overlooking city skyline"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -219,7 +230,10 @@ const Home = () => {
               <div>
                 <img 
                   src={medicalCleaningImage} 
-                  alt="Professional janitors in blue uniforms cleaning medical facility bed with hospital-grade disinfectants" 
+                  alt="Professional janitors in blue uniforms cleaning medical facility bed with hospital-grade disinfectants"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -234,7 +248,10 @@ const Home = () => {
               <div className="order-2 md:order-1">
                 <img 
                   src={retailCleaningImage} 
-                  alt="Worker operating floor cleaning machine in retail store aisle with yellow uniform and blue equipment" 
+                  alt="Worker operating floor cleaning machine in retail store aisle with yellow uniform and blue equipment"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -309,7 +326,10 @@ const Home = () => {
               <div>
                 <img 
                   src={restaurantCleaningImage} 
-                  alt="Female cook in professional kitchen cleaning stainless steel counter with pink cloth" 
+                  alt="Female cook in professional kitchen cleaning stainless steel counter with pink cloth"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -324,7 +344,10 @@ const Home = () => {
               <div className="order-2 md:order-1">
                 <img 
                   src={schoolCleaningImage} 
-                  alt="Janitor mopping clean hallway floor in school with bright natural light from window" 
+                  alt="Janitor mopping clean hallway floor in school with bright natural light from window"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -399,7 +422,10 @@ const Home = () => {
               <div>
                 <img 
                   src={gymCleaningImage} 
-                  alt="Person cleaning gym equipment with blue microfiber cloth and spray bottle" 
+                  alt="Person cleaning gym equipment with blue microfiber cloth and spray bottle"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                   className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
                 />
               </div>
@@ -620,6 +646,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
