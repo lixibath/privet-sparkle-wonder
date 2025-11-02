@@ -6,6 +6,7 @@ import TestimonialCard from "@/components/TestimonialCard";
 import { Phone } from "lucide-react";
 import officeCleaningImage from "@/assets/office-cleaning.jpeg";
 import medicalCleaningImage from "@/assets/medical-cleaning.webp";
+import retailCleaningImage from "@/assets/retail-cleaning.webp";
 
 const Home = () => {
   const testimonials = [
@@ -228,7 +229,11 @@ const Home = () => {
           <div className="container mx-auto px-4 py-12 md:py-16">
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="order-2 md:order-1">
-                <div className="aspect-[4/3] bg-card rounded-lg border border-border"></div>
+                <img 
+                  src={retailCleaningImage} 
+                  alt="Worker operating floor cleaning machine in retail store aisle with yellow uniform and blue equipment" 
+                  className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
+                />
               </div>
               <div className="order-1 md:order-2">
                 <h3 className="text-3xl font-bold mb-4">Retail Store Cleaning</h3>
