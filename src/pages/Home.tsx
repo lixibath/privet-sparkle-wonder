@@ -7,6 +7,7 @@ import { Phone } from "lucide-react";
 import officeCleaningImage from "@/assets/office-cleaning.jpeg";
 import medicalCleaningImage from "@/assets/medical-cleaning.webp";
 import retailCleaningImage from "@/assets/retail-cleaning.webp";
+import restaurantCleaningImage from "@/assets/restaurant-cleaning.webp";
 
 const Home = () => {
   const testimonials = [
@@ -304,7 +305,11 @@ const Home = () => {
                 </ul>
               </div>
               <div>
-                <div className="aspect-[4/3] bg-card rounded-lg border border-border"></div>
+                <img 
+                  src={restaurantCleaningImage} 
+                  alt="Female cook in professional kitchen cleaning stainless steel counter with pink cloth" 
+                  className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
+                />
               </div>
             </div>
           </div>
