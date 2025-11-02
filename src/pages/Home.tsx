@@ -9,6 +9,7 @@ import medicalCleaningImage from "@/assets/medical-cleaning.webp";
 import retailCleaningImage from "@/assets/retail-cleaning.webp";
 import restaurantCleaningImage from "@/assets/restaurant-cleaning.webp";
 import schoolCleaningImage from "@/assets/school-cleaning.webp";
+import gymCleaningImage from "@/assets/gym-cleaning.jpg";
 
 const Home = () => {
   const testimonials = [
@@ -396,7 +397,11 @@ const Home = () => {
                 </ul>
               </div>
               <div>
-                <div className="aspect-[4/3] bg-card rounded-lg border border-border"></div>
+                <img 
+                  src={gymCleaningImage} 
+                  alt="Person cleaning gym equipment with blue microfiber cloth and spray bottle" 
+                  className="aspect-[4/3] w-full object-cover rounded-lg border border-border"
+                />
               </div>
             </div>
           </div>
