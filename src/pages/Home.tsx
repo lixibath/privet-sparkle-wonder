@@ -63,7 +63,6 @@ const Home = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             <div className="text-center">
               <div className="text-accent text-lg font-semibold">Licensed & Insured</div>
-              <div className="text-sm text-muted-foreground">TX License #56172</div>
             </div>
             <div className="border-l border-border h-12 hidden md:block"></div>
             <div className="text-center">
