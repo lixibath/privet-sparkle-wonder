@@ -40,7 +40,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Keeping Dallas Businesses Clean Since 2009
+              Professional Janitorial Services Dallas Can Count On
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               Professional janitorial services you can count on. We show up on time, do the job right, and don't cut corners. That's the Miranda way.
