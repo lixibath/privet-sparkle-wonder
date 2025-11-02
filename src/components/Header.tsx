@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import mirandaLogo from "@/assets/miranda-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,9 +23,23 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="font-inter font-bold text-xl text-foreground">
-            MIRANDA JANITORIAL
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link to="/" className="flex items-center gap-3">
+              <img 
+                src={mirandaLogo} 
+                alt="Miranda Gdal Janitorial LLC" 
+                className="h-12 md:h-14 w-auto"
+              />
+            </Link>
+            
+            <a 
+              href="tel:9453989726" 
+              className="hidden lg:flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Phone size={16} className="text-accent" />
+              <span>(945) 398-9726</span>
+            </a>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
