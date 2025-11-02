@@ -12,24 +12,21 @@ const Home = () => {
       company: "First National Bank",
       serviceType: "Bank Cleaning",
       rating: 5,
-      review: "We've been using Miranda Janitorial for three years now. They understand the security requirements of a financial institution and their staff is professional and trustworthy. Our branches always look spotless.",
-      date: "Nov 2024"
+      review: "We've been using Miranda Janitorial for three years now. They understand the security requirements of a financial institution and their staff is professional and trustworthy. Our branches always look spotless."
     },
     {
       name: "Sarah Mitchell",
       company: "Dallas Medical Center",
       serviceType: "Medical Facility",
       rating: 5,
-      review: "Healthcare facilities have strict cleaning standards, and Miranda meets them all. Their attention to detail and use of hospital-grade disinfectants gives us peace of mind. Highly recommended.",
-      date: "Oct 2024"
+      review: "Healthcare facilities have strict cleaning standards, and Miranda meets them all. Their attention to detail and use of hospital-grade disinfectants gives us peace of mind. Highly recommended."
     },
     {
       name: "James Rodriguez",
       company: "TechStart Office Park",
       serviceType: "Office Cleaning",
       rating: 5,
-      review: "Straight-up the most reliable cleaning service we've worked with. They show up when they say they will, do a thorough job, and their pricing is transparent. No surprises on the invoice.",
-      date: "Oct 2024"
+      review: "Straight-up the most reliable cleaning service we've worked with. They show up when they say they will, do a thorough job, and their pricing is transparent. No surprises on the invoice."
     }
   ];
 

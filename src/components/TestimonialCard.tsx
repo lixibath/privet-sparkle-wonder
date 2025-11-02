@@ -7,10 +7,9 @@ interface TestimonialCardProps {
   serviceType: string;
   rating: number;
   review: string;
-  date: string;
 }
 
-const TestimonialCard = ({ name, company, serviceType, rating, review, date }: TestimonialCardProps) => {
+const TestimonialCard = ({ name, company, serviceType, rating, review }: TestimonialCardProps) => {
   return (
     <Card className="h-full">
       <CardContent className="pt-6">
@@ -33,7 +32,6 @@ const TestimonialCard = ({ name, company, serviceType, rating, review, date }: T
             <span className="inline-block px-2 py-1 rounded text-xs bg-primary/10 text-primary">
               {serviceType}
             </span>
-            <p className="text-muted-foreground mt-1 text-xs">{date}</p>
           </div>
         </div>
       </CardContent>
